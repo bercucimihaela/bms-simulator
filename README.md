@@ -49,4 +49,6 @@ Sau direct in CLion.
 
 ## Output
 
-_(adauga screenshot dupa ce rulezi pe onlinegdb.com)_
+<img width="768" height="337" alt="bms_output" src="https://github.com/user-attachments/assets/2ac1e7ad-df34-49be-9f74-610f97e6af48" />
+
+Consola demonstrează rularea simulării pe durata a 100 de pași (timesteps). Se poate observa cum BMS-ul monitorizează parametrii și reacționează activ: comută din starea NORMAL în THERMAL_THROTTLING pentru a reduce curentul, iar la depășirea pragului termic de 70°C, declanșează imediat starea de protecție CRITICAL_DISCONNECT
